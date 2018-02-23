@@ -1,0 +1,237 @@
+[B]2.0.4[/B]
+- cinentaor entfernt
+- kinow per default deaktiviert
+- lastship.py Code Optimierung (Import Funktion)
+
+[B]2.0.3[/B]
+- Update Einstellungen (Settings)
+- Trakt Bibliothek automatisch Synchronisieren
+- Gesamten Speicher löschen und Metaspeicher löschen hinzugefügt
+- Update lastship.py
+- tata wieder hinzugefügt (nur Filme)
+- video4k aus den settings entfernt
+
+[B]2.0.2.1[/B]
+-Bugfix whatsnew
+
+[B]2.0.2[/B]
+- Add News und Updates Anzeige
+- Update TMDB Key	
+	
+[B]2.0.1[/B]
+- Serienstream hinzugefügt, Fix Login Problem
+
+[B]2.0.0[/B]
+- Aufteilung von plugin.video.lastship in 2 Module:
+  script.module.lastship
+  plugin.video.lasthip
+- settings Anpassung an die neue Aufteilung
+- string.po Anpassung (alles im/ab 32700 Kreis ist Lastship spezifisch)
+  
+[B]1.2.6.1[/B]
+- Settings Fix (tata, stream.to und streamdream entfernt)
+
+[B]1.2.6[/B]
+- Irreführende/Falsche Anzeige bei der Streamsuche behoben (Danke petemei)
+- Gesamtanzahl der Streams während der Suche anzeigen (Danke petemei)
+- Fix IMDB, funktioniert nur für User Listen, also eigene oder fremde oeffentliche ID, nicht für die Watchlist (Danke petemei)
+- tata entfernt (aktuell keine Filme und Serien mehr)
+- stream.to entfernt (verwendet reCaptcha)
+- streamdream entfernt (verwednet FileCrypt)
+
+[B]1.2.5[/B]
+- Die Farbe für Premium-Links kann in den Einstellungen, vom User, angepasst werden (Danke petemei)
+- Einstellung, für Englische und Englisch_Deutsche Sprache, entfernt
+- Fix Seriesever (aber leider ohne RealDebrid), Danke philps
+- Fix Foxx (Danke philps)
+
+[B]1.2.4[/B]
+- Update foxx (script.module.requests erforderlich, wird automatisch mit installiert)
+- Update source.py (Beim Durchsuchen der Index Seiten wird jetzt auch angezeigt, welche Stream Auflösungen zur Verfügung stehen)
+- Lichtspielhaus & Moviesever entfernt, Homepage down
+- Streamflix entfernt, hat einen neue Domain (streamflix.ru)
+- kinos.to als zusätzliche Domain in der kinox.py hinzugefügt
+- Englische Index Seiten entfernt 
+
+[B]1.2.3[/B]
+- Beim Hinzufügen neuer Episoden zur Library wird eine bereits vorhandene "tvshow.nfo" nicht mehr überschrieben
+- Neu gesendete Episoden können sofort zur Library hinzugefügt werden (nicht erst 1 Tag später)
+- Datumsaktualisierung im Hintergrund bei Auto-Import von Episoden
+- Exuary kann als Erscheinungsbild ausgewählt werden
+- Neue Englische Index Seiten hinzugefügt: Icefilms, Openloadmovies, Series9, 123netflix
+- cfscrape erstellt (Cloudflare Scraper)
+- source.py (angepasst an das requests module)  
+- player.py (angepasst an foxx.py)
+- Update Index Seite Alluc-de
+- Fix foxx.to (Danke an Philps), script.module.requests erforderlich, wird automatisch mit installiert
+
+[B]1.2.2[/B]
+- Film Trailer werden jetzt in Deutsch abgespielt, wenn Deutsch als Info-Sprache eingestellt ist; Danke an nokodemus
+- Provider PLocker, MyVideoLink, CMovies und PubFilmTo repariert
+- Neu: theXem-Integration; Danke Homik
+- Neue Einstellung für Sortierung des Trakt-Fortschritts
+- Provider ReleaseBB aktualisiert
+- Anzeige der Ergebnisliste verbessert
+- Neue Einstellung zum Filtern von Filmen nach Jahr; Danke an Fire-Hawk
+- Cinenator-Provider repariert; Danke an  Philps
+- "als gesehen markiert" (bei 90% gesehen) wenn Filme/Serien zur lokalen Datenbank hinzugefügt werden; Danke an noahf1
+- VShare.eu zu den Pairing-Hostern hinzugefügt
+- Changelog ab jetzt auf deutsch
+
+[B]1.2.1[/B]
+- Add providers Tinklepad, AllRls
+- Encrypt calls to YouTube and Trakt API by SSL/TLS
+- Update strings and translation
+- Update providers CMovies, PLocker and PrimeWire
+- Fix providers Sezonlukdizi, OnlineDizi, OpenMovies, PubFilm and DirectDL
+- Fix TV shows premiere date
+- Tweak logging
+- Add new TV show / movie lists for Balkan languages
+- New main menu option ("New Movies" shortcut) : "Latest German movies"
+- Tweak multi provider Alluc
+
+[B]1.2.0[/B]
+- Add stream.to
+- Update Sezonlukdizi
+- New Fanart Background
+- Fix for "My Lists" setting
+- Fix provider Flimmerstube (Horrokino)
+- Relabelled provider settings
+- Updated some strings
+- Integrated new artwork set
+
+[B]1.1.16[/B]
+- Update MoviesHD
+- Fix KingMovies
+- Fix Movie25
+- Update MyDDL
+- Add CMovies (en)
+- New setting : limit number of Alluc links
+- Minimize number of Alluc API calls
+- Update WatchSeries
+- Re-add provider Watch5s
+- Update XMovies
+- Fix OpenMovies
+- Fix GoStream
+- New network logos for TV shows
+- Tweak Trakt API calls for TV show calendar
+
+[B]1.1.15[/B]
+- Add Vidzella to HQ hosters
+- Fix Foxx
+- Tweak Movie2k-ac stream quality check
+- Fix search on SerienStream
+
+[B]1.1.14[/B]
+- KinoW, Movie2k.ac and Movie2k.ag search fixed
+- Add search for GVideo directstreams on KinoW
+- Include streaming of GVideo download links to KinoW
+- 1Kino removed (for now)
+- Added provider Lichtspielhaus.stream
+- Provider Foxx fixed
+- Improved stream quality classification for Movie2k.ac
+- Default value for provider timeout reset to 30s
+
+[B]1.1.13[/B]
+- Fix Kinoking search
+- Fix MovieTown search
+- Add KinoKing TV shows
+- Fix KinoW
+- Add MovieTown TV shows
+- Check stream quality in MovieTown scraper
+
+[B]1.1.12[/B]
+- Fix for SeriesEver not pulling all links
+- Sort Trakt Progress by recently watched rather than airdate
+- Add provider movie2z
+- Add account settings for Serienstream and show notification on access w/o acc
+- Fix providers : Foxx
+-                 Afdah
+-                 RlsBB
+-                 WatchFree
+-                 OneMovies
+-                 TuneMovie
+-                 OpenMovies
+
+[B]1.1.11[/B]
+- Add Movie2k.ag
+- Add Movie2k.ac
+- Fix Movies/Language section
+- Fix providers : Primewire
+-                 ProjectFree
+-                 Pubfilm
+-                 Watchfree
+-                 SceneDown
+-                 PutLocker
+-                 SeriesOnline
+- Add JuicyCodes support
+- Add Imdark provider
+- New option for container refresh after playback (default off)
+
+[B]1.1.10[/B]
+- Fix foxx
+- Add movietown
+- Add kinoking
+
+[B]1.1.9[/B]
+- Fix Sezonlukdizi (credits to weekendsource)
+- Fix german translation
+- Fix alphabetical sort order in EN provider settings
+- Provider MeinKino removed
+- Bugfix in settings ("New Episodes" wasn't visible)
+
+[B]1.1.8[/B]
+- Remove provider pmovies and watch5s
+- Fix Kongmovies
+- Fix Streamlord
+
+[B]1.1.7.1[/B]
+- Add gostream provider
+- Improve Trakt watched states sync
+- Tweak fanart.tv calls for movie artwork
+
+[B]1.1.6[/B]
+- Tweak Alluc scraper
+
+[B]1.1.5[/B]
+- Fix dizigold, seriesonline, streamlord
+- New TheTVDB.com & fanart.tv project API keys
+- Make passwords and user-keys visible in settings and virtual keyboard
+
+[B]1.1.4[/B]
+- Add multi-scraper "alluc.ee" for german and english sources
+  (API-key from http://accounts.alluc.com/ is required and can be entered in the "accounts" settings tab)
+- Some tweaks on the settings display
+- Move Library scaper option out of the "english" section & add german translation
+- Fix HDFilme.tv
+
+[B]1.1.3[/B]
+- Dayt update
+- Onseries, Kingmovies fixed
+- New setting to exclude movies released within the last 90 days (except in Lists, In Theatres and Search)
+
+[B]1.1.2[/B]
+- New API keys for fanart.tv and TMDB
+
+[B]1.1.1[/B]
+- Fix pubfilm.to
+- Add option to show unaired (future) seasons and episodes
+- Change addon name to "Lastship" (uppercase)
+
+[B]1.1.0[/B]
+- Remove unfunctional english providers; add new ones (Thx petemei)
+- Update german translation
+- Remove all non-DE/EN-sources 
+- Lift German Providers to Top in Settings 
+
+[B]1.0.0[/B]
+- Update English Providers
+- Add German Providers (proxer, streamdream, view4u)
+- Update German Providers
+- Update Modules
+- Update Indexers
+- Fix tata
+
+[B]0.0.9[/B]
+- Anpassung an das Github Repo, keine Technischen Änderungen
+
